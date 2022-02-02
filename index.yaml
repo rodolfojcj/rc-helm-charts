@@ -3,7 +3,7 @@ entries:
   saleor:
   - apiVersion: v2
     appVersion: 3.1.0-alpha
-    created: "2022-02-02T16:07:36.274223034-04:00"
+    created: "2022-02-02T17:36:14.017178961-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -26,6 +26,6 @@ entries:
     name: saleor
     type: application
     urls:
-    - https://github.com/rodolfojcj/rc-helm-charts/saleor-0.1.0.tgz
+    - https://rodolfojcj.github.io/rc-helm-charts/saleor-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-02T16:07:36.209822466-04:00"
+generated: "2022-02-02T17:36:13.921828371-04:00"
