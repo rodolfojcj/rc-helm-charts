@@ -3,7 +3,41 @@ entries:
   saleor:
   - apiVersion: v2
     appVersion: 3.1.0-alpha
-    created: "2022-02-02T17:36:14.017178961-04:00"
+    created: "2022-02-02T20:16:56.239082463-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.x.x
+    - name: jaeger-all-in-one
+      repository: https://raw.githubusercontent.com/hansehe/jaeger-all-in-one/master/helm/charts
+      version: 0.1.x
+    - name: mailhog
+      repository: https://codecentric.github.io/helm-charts
+      version: 5.x.x
+    description: Saleor is a modular, high performance, headless e-commerce platform
+      built with Python, GraphQL, Django, and React.
+    digest: fc26cf6f25837c9b95413bab37553e83c4f3d818f0de145870beb3fe6441a788
+    home: https://saleor.io
+    keywords:
+    - ecommerce
+    - graphql
+    - python
+    - saleor
+    - react
+    name: saleor
+    type: application
+    urls:
+    - https://rodolfojcj.github.io/rc-helm-charts/saleor-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 3.1.0-alpha
+    created: "2022-02-02T20:16:56.196545529-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -28,4 +62,4 @@ entries:
     urls:
     - https://rodolfojcj.github.io/rc-helm-charts/saleor-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-02T17:36:13.921828371-04:00"
+generated: "2022-02-02T20:16:56.05299481-04:00"
