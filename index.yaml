@@ -3,7 +3,7 @@ entries:
   saleor:
   - apiVersion: v2
     appVersion: 3.1.0-alpha
-    created: "2022-02-02T20:16:56.239082463-04:00"
+    created: "2022-02-10T15:32:44.935027877-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -37,7 +37,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 3.1.0-alpha
-    created: "2022-02-02T20:16:56.196545529-04:00"
+    created: "2022-02-10T15:32:44.862774202-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -62,4 +62,46 @@ entries:
     urls:
     - https://rodolfojcj.github.io/rc-helm-charts/saleor-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-02T20:16:56.05299481-04:00"
+  taiga:
+  - annotations:
+      category: ProjectManagement
+    apiVersion: v2
+    appVersion: "6"
+    created: "2022-02-10T15:32:44.989518042-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - alias: async-rabbitmq
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.x.x
+    - alias: events-rabbitmq
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.x.x
+    - alias: nginx-gateway
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.x.x
+    description: Chart for Taiga, your opensource agile project management software
+    digest: a624f7fc73366fa39d7361cca307af134153c8d37d903cf924bde7df7cebf5b1
+    keywords:
+    - taiga
+    - project management
+    - web
+    - application
+    - python
+    - django
+    name: taiga
+    sources:
+    - https://www.taiga.io
+    type: application
+    urls:
+    - https://rodolfojcj.github.io/rc-helm-charts/taiga-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-10T15:32:44.785346299-04:00"
